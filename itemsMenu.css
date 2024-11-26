@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-heading{
+    margin: 7px;
+    color: green;
+}
+
+
+.container{
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 350px;
+    height: 95vh;
+    margin: auto;
+    
+}
+
+.heading{
+    margin: 10;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box1{
+    border: 2px solid green;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(226, 242, 233);
+    
+    
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type:none ;
+}
+
+.item{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.size{
+    display: flex;
+    padding-left: 10px;
+    margin-left: 20px;
+    
+}
+
+.size-list{
+    display: flex;
+}
+.row1{
+    margin-right: 10px
+}
+#list-item{
+    margin: 1px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.button{
+    display: flex;
+    margin: 10px;
+
+    justify-content: center;
+}
+.btn-add{
+    background-color: green;
+    padding: 5px;
+    width: 200px;
+    margin-top:10px ;
+    color: aliceblue;
+    border: 1px solid green;
+    border-radius: 2px;
+}
+
+.copy{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    color: gray;
+    
+}
